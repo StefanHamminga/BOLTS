@@ -32,7 +32,7 @@ def singlerowradialbearing(params,document):
 	rout=0.5*params['d2']
 	rin=0.5*params['d1']
 	bth=params['B']
-	r_fillet=0.5*params['r_fillet']
+	r_fillet=params['r_fillet']
 	name=params['name']
 	seal = params['type']
 
